@@ -1,0 +1,2129 @@
+{
+  "scope": "Read-only candidate inventory; source availability and license requirements are not established by POM declarations. Runtime and dependencies not represented by app JARs require separate review.",
+  "omitted": "javax.media:jai-core:1.1.3",
+  "files": 56,
+  "artifacts": [
+    {
+      "file": "angus-activation-2.0.2.jar",
+      "sha256": "6dd3bcffc22bce83b07376a0e2e094e4964a3195d4118fb43e380ef35436cc1e",
+      "artifact": {
+        "coordinates": "org.eclipse.angus:angus-activation:2.0.2",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar",
+        "maven_sha256": "6dd3bcffc22bce83b07376a0e2e094e4964a3195d4118fb43e380ef35436cc1e",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.pom",
+          "sha256": "75e5621a7dc858c996ee70c6b4d884d901d187836ce6c67120caf9547e6fc571",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.eclipse.angus",
+            "artifactId": "angus-activation-project",
+            "version": "2.0.2"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation-project/2.0.2/angus-activation-project-2.0.2.pom",
+          "sha256": "af9188a10cb8aa4eb5ffe6d391f1ee2159f1ea4a7fd890ee698623e6f379d8f6",
+          "licenses": [
+            {
+              "name": "EDL 1.0",
+              "url": "http://www.eclipse.org/org/documents/edl-v10.php",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/eclipse-ee4j/angus-activation",
+          "parent": {
+            "groupId": "org.eclipse.ee4j",
+            "artifactId": "project",
+            "version": "1.0.9"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "apfloat-1.10.1.jar",
+      "sha256": "a1480f560f37355f6c0458c523bda46658da4cd3e23cc64e309fedcd7b0782ba",
+      "artifact": {
+        "coordinates": "org.apfloat:apfloat:1.10.1",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/apfloat/apfloat/1.10.1/apfloat-1.10.1.jar",
+        "maven_sha256": "a1480f560f37355f6c0458c523bda46658da4cd3e23cc64e309fedcd7b0782ba",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apfloat/apfloat/1.10.1/apfloat-1.10.1.pom",
+          "sha256": "861a6900c593ed2268600dd17713ec7891d933ca019d39509b46f31812745dcb",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.apfloat",
+            "artifactId": "apfloat-parent",
+            "version": "1.10.1"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apfloat/apfloat-parent/1.10.1/apfloat-parent-1.10.1.pom",
+          "sha256": "ac70c12fe709b570eeaca3994f835ba469e725a59bbe36110d3a412261e052df",
+          "licenses": [
+            {
+              "name": "MIT License",
+              "url": "https://opensource.org/licenses/MIT",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/mtommila/apfloat",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "args4j-2.33.jar",
+      "sha256": "91ddeaba0b24adce72291c618c00bbdce1c884755f6c4dba9c5c46e871c69ed6",
+      "artifact": {
+        "coordinates": "args4j:args4j:2.33",
+        "artifact_url": "https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.jar",
+        "maven_sha256": "91ddeaba0b24adce72291c618c00bbdce1c884755f6c4dba9c5c46e871c69ed6",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33.pom",
+          "sha256": "c23256cf0fca685c9457d5d291646676db3c777f4b2d2703377085ffcc52d710",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "args4j",
+            "artifactId": "args4j-site",
+            "version": "2.33"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/args4j/args4j-site/2.33/args4j-site-2.33.pom",
+          "sha256": "f2bd64d02e3ebcf6de54bcd991b2417b67c371e798701d9aea6fae6cf36c18ef",
+          "licenses": [
+            {
+              "name": "MIT License",
+              "url": "http://www.opensource.org/licenses/mit-license.php",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "http://args4j.kohsuke.org/",
+          "parent": {
+            "groupId": "org.kohsuke",
+            "artifactId": "pom",
+            "version": "14"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "audiveris.jar",
+      "sha256": "9b35257edea808ec80a8bcd48882d174b107152d9640b5ca33e1365593cff2a5",
+      "artifact": null,
+      "pom_chain": [],
+      "status": "from_official_release_deb_not_independently_rebuilt",
+      "upstream_source": "https://github.com/Audiveris/audiveris/tree/9e1e55cd2746037d059345881c53e6a6754bffbd",
+      "release": "https://github.com/Audiveris/audiveris/releases/tag/5.11.0",
+      "release_deb_sha256": "f20113aaa33b3149ec8d6a09b2a7963360e65fafd92d69389987a85bbc3ec7a3"
+    },
+    {
+      "file": "bsaf-1.9.2.jar",
+      "sha256": "45572e5b7cac67719be39010fab0750b5eb7cc9759f9df473e6366131516f819",
+      "artifact": {
+        "coordinates": "org.jdesktop.bsaf:bsaf:1.9.2",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/jdesktop/bsaf/bsaf/1.9.2/bsaf-1.9.2.jar",
+        "maven_sha256": "45572e5b7cac67719be39010fab0750b5eb7cc9759f9df473e6366131516f819",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/jdesktop/bsaf/bsaf/1.9.2/bsaf-1.9.2.pom",
+          "sha256": "49b52b0014726e76ac9e1282964c426c14b4d51ab2cf2f1199d6b0b3346b63bf",
+          "licenses": [
+            {
+              "name": "LGPL 2.1",
+              "url": "http://www.gnu.org/licenses/lgpl-2.1.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "http://kenai.com/projects/bsaf/sources/main/show/tags/bsaf-1.9.2",
+          "parent": {
+            "groupId": "org.sonatype.oss",
+            "artifactId": "oss-parent",
+            "version": "7"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "commonmark-0.27.0.jar",
+      "sha256": "7a5a1a6e848e729fd7f85309f39e777af949848a914e559caeb7f64baef6e63e",
+      "artifact": {
+        "coordinates": "org.commonmark:commonmark:0.27.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.0/commonmark-0.27.0.jar",
+        "maven_sha256": "7a5a1a6e848e729fd7f85309f39e777af949848a914e559caeb7f64baef6e63e",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.0/commonmark-0.27.0.pom",
+          "sha256": "b9fdfeff845d6ddbac28e312264b8c2ec602a656fd27e52f711113478b68543a",
+          "licenses": [
+            {
+              "name": "BSD-2-Clause",
+              "url": "https://opensource.org/licenses/BSD-2-Clause",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.commonmark",
+            "artifactId": "commonmark-parent",
+            "version": "0.27.0"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "commons-io-2.16.1.jar",
+      "sha256": "f41f7baacd716896447ace9758621f62c1c6b0a91d89acee488da26fc477c84f",
+      "artifact": {
+        "coordinates": "commons-io:commons-io:2.16.1",
+        "artifact_url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar",
+        "maven_sha256": "f41f7baacd716896447ace9758621f62c1c6b0a91d89acee488da26fc477c84f",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.pom",
+          "sha256": "5777d292251c7895c04a4c57015683ec3b353a12486c9b3e7178e9b0b3c38fff",
+          "licenses": [],
+          "scm_url": "https://gitbox.apache.org/repos/asf?p=commons-io.git",
+          "parent": {
+            "groupId": "org.apache.commons",
+            "artifactId": "commons-parent",
+            "version": "69"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom",
+          "sha256": "d50da9c39bdca823d618d1b4a03b73f196497fcb8616fd0da727c8623592a9bb",
+          "licenses": [],
+          "scm_url": "https://gitbox.apache.org/repos/asf?p=commons-parent.git",
+          "parent": {
+            "groupId": "org.apache",
+            "artifactId": "apache",
+            "version": "31"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom",
+          "sha256": "555d0c9eaa69c042aff924927b9381e8f8174136d355eead445224452e6291cc",
+          "licenses": [
+            {
+              "name": "Apache-2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/apache/maven-apache-parent/tree/${project.scm.tag}",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "commons-lang3-3.18.0.jar",
+      "sha256": "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720",
+      "artifact": {
+        "coordinates": "org.apache.commons:commons-lang3:3.18.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar",
+        "maven_sha256": "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.pom",
+          "sha256": "aa254b373b6f6d46bc9dca86331b072a8ab86eb25ea9921fd439618392e98a16",
+          "licenses": [],
+          "scm_url": "https://gitbox.apache.org/repos/asf/commons-lang.git",
+          "parent": {
+            "groupId": "org.apache.commons",
+            "artifactId": "commons-parent",
+            "version": "85"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/85/commons-parent-85.pom",
+          "sha256": "d189ff2c0027e96bb65d31e6f227ed2af966169b36af1e973dd5ba08926dc7b5",
+          "licenses": [],
+          "scm_url": "https://gitbox.apache.org/repos/asf?p=commons-parent.git",
+          "parent": {
+            "groupId": "org.apache",
+            "artifactId": "apache",
+            "version": "35"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/apache/35/apache-35.pom",
+          "sha256": "ea297dcd114136e8b8e8b630230d52a76c2fc69f6c5db25d672b1857000728b8",
+          "licenses": [
+            {
+              "name": "Apache-2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/apache/maven-apache-parent/tree/${project.scm.tag}",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "commons-logging-1.3.5.jar",
+      "sha256": "6d7a744e4027649fbb50895df9497d109f98c766a637062fe8d2eabbb3140ba4",
+      "artifact": {
+        "coordinates": "commons-logging:commons-logging:1.3.5",
+        "artifact_url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar",
+        "maven_sha256": "6d7a744e4027649fbb50895df9497d109f98c766a637062fe8d2eabbb3140ba4",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.pom",
+          "sha256": "ccf4a30346f5027b9496abd56290ac26d159abf2be64df1265611dc9400b9d68",
+          "licenses": [],
+          "scm_url": "https://gitbox.apache.org/repos/asf/commons-logging",
+          "parent": {
+            "groupId": "org.apache.commons",
+            "artifactId": "commons-parent",
+            "version": "81"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/81/commons-parent-81.pom",
+          "sha256": "348d4e7c131be6114c854a719ce7a44307a7c39bd366084977b24fd29ad0edb4",
+          "licenses": [],
+          "scm_url": "https://gitbox.apache.org/repos/asf?p=commons-parent.git",
+          "parent": {
+            "groupId": "org.apache",
+            "artifactId": "apache",
+            "version": "33"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom",
+          "sha256": "d78bd8524c5f8380a190a6525686629a95dfe512df21111383a6d8c0923a4415",
+          "licenses": [
+            {
+              "name": "Apache-2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/apache/maven-apache-parent/tree/${project.scm.tag}",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "eventbus-1.4.jar",
+      "sha256": "63ecd62d3e72447ddd0ed688c8dbf79d4ad96fafeaad5cc9836da9a91d4298fe",
+      "artifact": {
+        "coordinates": "org.bushe:eventbus:1.4",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/bushe/eventbus/1.4/eventbus-1.4.jar",
+        "maven_sha256": "63ecd62d3e72447ddd0ed688c8dbf79d4ad96fafeaad5cc9836da9a91d4298fe",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bushe/eventbus/1.4/eventbus-1.4.pom",
+          "sha256": "294645f0760cfa2bc5bb98ac9cecb365cf2e8e5953bba6986f4d5d914b484fb8",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://eventbus.dev.java.net/source/browse/eventbus/",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "fontbox-3.0.6.jar",
+      "sha256": "7a09fcb0c630e471ac26b347ca45a0d8aef5a969cc59aebff1c57fe92293e2b1",
+      "artifact": {
+        "coordinates": "org.apache.pdfbox:fontbox:3.0.6",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.6/fontbox-3.0.6.jar",
+        "maven_sha256": "7a09fcb0c630e471ac26b347ca45a0d8aef5a969cc59aebff1c57fe92293e2b1",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.6/fontbox-3.0.6.pom",
+          "sha256": "44fd7c1c128bd6bff52a3f64bc78887100facd2e49f2b2681863077c676815ae",
+          "licenses": [],
+          "scm_url": "https://svn.apache.org/viewvc/pdfbox/tags/3.0.6/fontbox",
+          "parent": {
+            "groupId": "org.apache.pdfbox",
+            "artifactId": "pdfbox-parent",
+            "version": "3.0.6"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/3.0.6/pdfbox-parent-3.0.6.pom",
+          "sha256": "11dccdb52a2f144a48ba2fbcf67a46adc4da37925943fc4d9212df892331a8de",
+          "licenses": [],
+          "scm_url": "https://svn.apache.org/viewvc/pdfbox/tags/3.0.6/parent",
+          "parent": {
+            "groupId": "org.apache",
+            "artifactId": "apache",
+            "version": "35"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/apache/35/apache-35.pom",
+          "sha256": "ea297dcd114136e8b8e8b630230d52a76c2fc69f6c5db25d672b1857000728b8",
+          "licenses": [
+            {
+              "name": "Apache-2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/apache/maven-apache-parent/tree/${project.scm.tag}",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "github-api-1.330.jar",
+      "sha256": "740cbe21fddcd88b3baa9e006e50e5759db160822b12e93154f79013cf6d1e31",
+      "artifact": {
+        "coordinates": "org.kohsuke:github-api:1.330",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/kohsuke/github-api/1.330/github-api-1.330.jar",
+        "maven_sha256": "740cbe21fddcd88b3baa9e006e50e5759db160822b12e93154f79013cf6d1e31",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/kohsuke/github-api/1.330/github-api-1.330.pom",
+          "sha256": "97249bbc3be7842961be731ed6c5dcac238b578393aa1d1b10972a04e517252a",
+          "licenses": [
+            {
+              "name": "The MIT license",
+              "url": "https://www.opensource.org/licenses/mit-license.php",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/hub4j/github-api/",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "ij-1.54p.jar",
+      "sha256": "2e1a09961dfb41cee66ddc821b2577a41a072566ce45a49bae69267099741e20",
+      "artifact": {
+        "coordinates": "net.imagej:ij:1.54p",
+        "artifact_url": "https://repo.maven.apache.org/maven2/net/imagej/ij/1.54p/ij-1.54p.jar",
+        "maven_sha256": "2e1a09961dfb41cee66ddc821b2577a41a072566ce45a49bae69267099741e20",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/net/imagej/ij/1.54p/ij-1.54p.pom",
+          "sha256": "19180eac48f2a5fd43c7fde076bac1e032e731a651778ab886a076ba1a811ec2",
+          "licenses": [
+            {
+              "name": "Public domain",
+              "url": "https://imagej.net/ij/disclaimer.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/imagej/ImageJ",
+          "parent": {
+            "groupId": "org.scijava",
+            "artifactId": "pom-scijava",
+            "version": "31.1.0"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "istack-commons-runtime-4.1.2.jar",
+      "sha256": "7fd6792361f4dd00f8c56af4a20cecc0066deea4a8f3dec38348af23fc2296ee",
+      "artifact": {
+        "coordinates": "com.sun.istack:istack-commons-runtime:4.1.2",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar",
+        "maven_sha256": "7fd6792361f4dd00f8c56af4a20cecc0066deea4a8f3dec38348af23fc2296ee",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.pom",
+          "sha256": "1222a290beddb6f6e92bc999bcebc3696fcd6d72215856d224727a7bc2dc3aca",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.istack",
+            "artifactId": "istack-commons",
+            "version": "4.1.2"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.1.2/istack-commons-4.1.2.pom",
+          "sha256": "d8883eb70364701dae0e37449c88fd9275117ac3d86040e89f1be3e9d47e9c9d",
+          "licenses": [
+            {
+              "name": "Eclipse Distribution License - v 1.0",
+              "url": "http://www.eclipse.org/org/documents/edl-v10.php",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/eclipse-ee4j/jaxb-istack-commons",
+          "parent": {
+            "groupId": "org.eclipse.ee4j",
+            "artifactId": "project",
+            "version": "1.0.7"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "itextpdf-5.5.13.2.jar",
+      "sha256": "c355cddab40c481c842e17b603c01f44c0541bbb7bad2647dd3c9d69d76889e6",
+      "artifact": {
+        "coordinates": "com.itextpdf:itextpdf:5.5.13.2",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/itextpdf/itextpdf/5.5.13.2/itextpdf-5.5.13.2.jar",
+        "maven_sha256": "c355cddab40c481c842e17b603c01f44c0541bbb7bad2647dd3c9d69d76889e6",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/itextpdf/itextpdf/5.5.13.2/itextpdf-5.5.13.2.pom",
+          "sha256": "5b8b88b4f3f2d8168feeef9c0a740e80371b7dc93b1a8cd62e6d771056080fbd",
+          "licenses": [
+            {
+              "name": "GNU Affero General Public License v3",
+              "url": "http://www.fsf.org/licensing/licenses/agpl-3.0.html",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "https://github.com/itext/itextpdf",
+          "parent": {
+            "groupId": "com.itextpdf",
+            "artifactId": "itext-parent",
+            "version": "1.0.0"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jackson-annotations-2.20.jar",
+      "sha256": "959a2ffb2d591436f51f183c6a521fc89347912f711bf0cae008cdf045d95319",
+      "artifact": {
+        "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.20",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.jar",
+        "maven_sha256": "959a2ffb2d591436f51f183c6a521fc89347912f711bf0cae008cdf045d95319",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.pom",
+          "sha256": "4d740c4478dd08d089ecdc6d063228a55a11a7e8e497da4338f872f8115794a4",
+          "licenses": [
+            {
+              "name": "The Apache Software License, Version 2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/FasterXML/jackson-annotations",
+          "parent": {
+            "groupId": "com.fasterxml.jackson",
+            "artifactId": "jackson-parent",
+            "version": "2.20"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jackson-core-2.20.0.jar",
+      "sha256": "bc0cf46075877201f8406ee7de2741ae7df6c066f5f0457bd80632a718c06e72",
+      "artifact": {
+        "coordinates": "com.fasterxml.jackson.core:jackson-core:2.20.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.0/jackson-core-2.20.0.jar",
+        "maven_sha256": "bc0cf46075877201f8406ee7de2741ae7df6c066f5f0457bd80632a718c06e72",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.0/jackson-core-2.20.0.pom",
+          "sha256": "5f16558ac223073a6f247440f305f59f05eff50aaf1eeae0baad412800016f68",
+          "licenses": [
+            {
+              "name": "The Apache Software License, Version 2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/FasterXML/jackson-core",
+          "parent": {
+            "groupId": "com.fasterxml.jackson",
+            "artifactId": "jackson-base",
+            "version": "2.20.0"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jackson-databind-2.20.0.jar",
+      "sha256": "a70e146a6bf2cba4f9cd367169787f50adcfbb57122bc2e9c8390cd0b397ac30",
+      "artifact": {
+        "coordinates": "com.fasterxml.jackson.core:jackson-databind:2.20.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.0/jackson-databind-2.20.0.jar",
+        "maven_sha256": "a70e146a6bf2cba4f9cd367169787f50adcfbb57122bc2e9c8390cd0b397ac30",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.0/jackson-databind-2.20.0.pom",
+          "sha256": "cefefed01dd2c0d96a88e101bb3e065fc150063b498e301a938c690b02bcf3ce",
+          "licenses": [
+            {
+              "name": "The Apache Software License, Version 2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/FasterXML/jackson-databind",
+          "parent": {
+            "groupId": "com.fasterxml.jackson",
+            "artifactId": "jackson-base",
+            "version": "2.20.0"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jai-imageio-core-1.4.0.jar",
+      "sha256": "8ad3c68e9efffb10ac87ff8bc589adf64b04a729c5194c079efd0643607fd72a",
+      "artifact": {
+        "coordinates": "com.github.jai-imageio:jai-imageio-core:1.4.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar",
+        "maven_sha256": "8ad3c68e9efffb10ac87ff8bc589adf64b04a729c5194c079efd0643607fd72a",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.pom",
+          "sha256": "01cd0b8cf446a1ee2456ec9e83c435d60447d06e9f54904c4e6fec08f7cef2ac",
+          "licenses": [
+            {
+              "name": "BSD 3-clause License w/nuclear disclaimer",
+              "url": "LICENSE.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/jai-imageio/jai-imageio-core/",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jai-imageio-jpeg2000-1.4.0.jar",
+      "sha256": "07fb6e3a3040122b846c5e52520033175c3251e2ec8830df82f87cb21f388bb1",
+      "artifact": {
+        "coordinates": "com.github.jai-imageio:jai-imageio-jpeg2000:1.4.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/1.4.0/jai-imageio-jpeg2000-1.4.0.jar",
+        "maven_sha256": "07fb6e3a3040122b846c5e52520033175c3251e2ec8830df82f87cb21f388bb1",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/1.4.0/jai-imageio-jpeg2000-1.4.0.pom",
+          "sha256": "8d0774281007962725af1f77b307cde816cfd7ee25a10c532379d6e3564cbe1e",
+          "licenses": [
+            {
+              "name": "JJ2000",
+              "url": "LICENSE-JJ2000.txt",
+              "distribution": "repo"
+            },
+            {
+              "name": "BSD 3-clause License w/nuclear disclaimer",
+              "url": "LICENSE-Sun.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/stain/jai-imageio-jpeg2000",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jakarta.activation-api-2.1.3.jar",
+      "sha256": "01b176d718a169263e78290691fc479977186bcc6b333487325084d6586f4627",
+      "artifact": {
+        "coordinates": "jakarta.activation:jakarta.activation-api:2.1.3",
+        "artifact_url": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar",
+        "maven_sha256": "01b176d718a169263e78290691fc479977186bcc6b333487325084d6586f4627",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.pom",
+          "sha256": "b2549940c17b6865a34f6135b7722ed8cbfef6d0b6c0db372c30f0346bc8cd58",
+          "licenses": [
+            {
+              "name": "EDL 1.0",
+              "url": "http://www.eclipse.org/org/documents/edl-v10.php",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/jakartaee/jaf-api",
+          "parent": {
+            "groupId": "org.eclipse.ee4j",
+            "artifactId": "project",
+            "version": "1.0.9"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jakarta.xml.bind-api-4.0.2.jar",
+      "sha256": "0d6bcfe47763e85047acf7c398336dc84ff85ebcad0a7cb6f3b9d3e981245406",
+      "artifact": {
+        "coordinates": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+        "artifact_url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar",
+        "maven_sha256": "0d6bcfe47763e85047acf7c398336dc84ff85ebcad0a7cb6f3b9d3e981245406",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.pom",
+          "sha256": "ab7273e26a54824b3b7333d4956e6ecd26de13a5eb3d90ee63023193a92d72be",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "jakarta.xml.bind",
+            "artifactId": "jakarta.xml.bind-api-parent",
+            "version": "4.0.2"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/4.0.2/jakarta.xml.bind-api-parent-4.0.2.pom",
+          "sha256": "482cdb46d4dd2f5af7dc884c8a6de73ddffe6daf549ef36a6c077fd6e41eed08",
+          "licenses": [
+            {
+              "name": "Eclipse Distribution License - v 1.0",
+              "url": "http://www.eclipse.org/org/documents/edl-v10.php",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/jakartaee/jaxb-api.git",
+          "parent": {
+            "groupId": "org.eclipse.ee4j",
+            "artifactId": "project",
+            "version": "1.0.9"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jama-1.0.3.jar",
+      "sha256": "c7325ee29be1aac1287ddac690f73671f1cd911ca9eca7c619990e86310556fd",
+      "artifact": {
+        "coordinates": "gov.nist.math:jama:1.0.3",
+        "artifact_url": "https://repo.maven.apache.org/maven2/gov/nist/math/jama/1.0.3/jama-1.0.3.jar",
+        "maven_sha256": "c7325ee29be1aac1287ddac690f73671f1cd911ca9eca7c619990e86310556fd",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/gov/nist/math/jama/1.0.3/jama-1.0.3.pom",
+          "sha256": "bcdc2ab42e300087fae0a622a2144e90cad76a9eb92f75d05843a1e6b835a6c3",
+          "licenses": [
+            {
+              "name": "Public Domain",
+              "url": "http://creativecommons.org/licenses/publicdomain/",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "http://math.nist.gov/javanumerics/jama/Jama-1.0.3.tar.gz",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "javacpp-1.5.13.jar",
+      "sha256": "077f27d663cc928adce43e912a90ec06f97f92f120ca02d414735ae0fb1c743c",
+      "artifact": {
+        "coordinates": "org.bytedeco:javacpp:1.5.13",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.13/javacpp-1.5.13.jar",
+        "maven_sha256": "077f27d663cc928adce43e912a90ec06f97f92f120ca02d414735ae0fb1c743c",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.13/javacpp-1.5.13.pom",
+          "sha256": "974164e40f3b5bcbe728f27c3b9d51a38ecaf2b1e158629894454cc99acfc396",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0",
+              "distribution": "repo"
+            },
+            {
+              "name": "GNU General Public License (GPL) version 2, or any later version",
+              "url": "http://www.gnu.org/licenses/",
+              "distribution": "repo"
+            },
+            {
+              "name": "GPLv2 with Classpath exception",
+              "url": "http://www.gnu.org/software/classpath/license.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/bytedeco/javacpp",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "javassist-3.28.0-GA.jar",
+      "sha256": "57d0a9e9286f82f4eaa851125186997f811befce0e2060ff0a15a77f5a9dd9a7",
+      "artifact": {
+        "coordinates": "org.javassist:javassist:3.28.0-GA",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar",
+        "maven_sha256": "57d0a9e9286f82f4eaa851125186997f811befce0e2060ff0a15a77f5a9dd9a7",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.pom",
+          "sha256": "c36a7c13da3a4852aa881bdf9db60b9e4d1af146ec2afb5398f96d5983f6d5dd",
+          "licenses": [
+            {
+              "name": "MPL 1.1",
+              "url": "http://www.mozilla.org/MPL/MPL-1.1.html",
+              "distribution": ""
+            },
+            {
+              "name": "LGPL 2.1",
+              "url": "http://www.gnu.org/licenses/lgpl-2.1.html",
+              "distribution": ""
+            },
+            {
+              "name": "Apache License 2.0",
+              "url": "http://www.apache.org/licenses/",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "scm:git:git@github.com:jboss-javassist/javassist.git",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "javax.activation-api-1.2.0.jar",
+      "sha256": "43fdef0b5b6ceb31b0424b208b930c74ab58fac2ceeb7b3f6fd3aeb8b5ca4393",
+      "artifact": {
+        "coordinates": "javax.activation:javax.activation-api:1.2.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar",
+        "maven_sha256": "43fdef0b5b6ceb31b0424b208b930c74ab58fac2ceeb7b3f6fd3aeb8b5ca4393",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom",
+          "sha256": "da2926f3c8be898643cc10acdec6de0b0351a57fb2735770fa0177b06ade71b9",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.activation",
+            "artifactId": "all",
+            "version": "1.2.0"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom",
+          "sha256": "1d8518e3ac7532a104e4f7be77def37c982e530723c6bdb3d67708cce2b0c2c4",
+          "licenses": [
+            {
+              "name": "CDDL/GPLv2+CE",
+              "url": "https://github.com/javaee/activation/blob/master/LICENSE.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/javaee/activation",
+          "parent": {
+            "groupId": "net.java",
+            "artifactId": "jvnet-parent",
+            "version": "1"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jaxb-api-2.3.1.jar",
+      "sha256": "88b955a0df57880a26a74708bc34f74dcaf8ebf4e78843a28b50eae945732b06",
+      "artifact": {
+        "coordinates": "javax.xml.bind:jaxb-api:2.3.1",
+        "artifact_url": "https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar",
+        "maven_sha256": "88b955a0df57880a26a74708bc34f74dcaf8ebf4e78843a28b50eae945732b06",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom",
+          "sha256": "12b20cf922773445c3445c2883cbf671fa982111e9bf9f875020f9313b3814b1",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "javax.xml.bind",
+            "artifactId": "jaxb-api-parent",
+            "version": "2.3.1"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.3.1/jaxb-api-parent-2.3.1.pom",
+          "sha256": "cd1beaa4560dc4dfdb826b9d809e464db22526dfb54264bae78a6ff7efb08e1f",
+          "licenses": [
+            {
+              "name": "CDDL 1.1",
+              "url": "https://oss.oracle.com/licenses/CDDL+GPL-1.1",
+              "distribution": "repo"
+            },
+            {
+              "name": "GPL2 w/ CPE",
+              "url": "https://oss.oracle.com/licenses/CDDL+GPL-1.1",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/javaee/jaxb-spec.git",
+          "parent": {
+            "groupId": "net.java",
+            "artifactId": "jvnet-parent",
+            "version": "5"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jaxb-core-2.3.0.1.jar",
+      "sha256": "d2ecba63615f317a11fb55c6468f6a9480f6411c10951d9881bafd9a9a8d0467",
+      "artifact": {
+        "coordinates": "com.sun.xml.bind:jaxb-core:2.3.0.1",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar",
+        "maven_sha256": "d2ecba63615f317a11fb55c6468f6a9480f6411c10951d9881bafd9a9a8d0467",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.pom",
+          "sha256": "ee7bb74f42fdc4db10e3cc9c68c0e9b5beaf8ebb36cce91d495b479b026c6aab",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-bundles",
+            "version": "2.3.0.1"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-bundles/2.3.0.1/jaxb-bundles-2.3.0.1.pom",
+          "sha256": "9d705266c0f01695d897b67465115984b3a9b6487087aba4ece1d798a6c344f8",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-parent",
+            "version": "2.3.0.1"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.0.1/jaxb-parent-2.3.0.1.pom",
+          "sha256": "1d366597d77b073448399cbda35d1ace25eda213c593714dd6b1e6742aa162e2",
+          "licenses": [
+            {
+              "name": "CDDL+GPL License",
+              "url": "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "http://java.net/projects/jaxb/sources/v2/show",
+          "parent": {
+            "groupId": "com.sun.xml.bind",
+            "artifactId": "jaxb-bom-ext",
+            "version": "2.3.0.1"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jaxb-core-4.0.5.jar",
+      "sha256": "ad3fd9bf00de3eda9859f70b6cfb011e2fe9904804e16a2665092888ece0fdca",
+      "artifact": {
+        "coordinates": "org.glassfish.jaxb:jaxb-core:4.0.5",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar",
+        "maven_sha256": "ad3fd9bf00de3eda9859f70b6cfb011e2fe9904804e16a2665092888ece0fdca",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.pom",
+          "sha256": "4b53921376fbfdec60e3a8fef058cc3dc99d9fca3e9c950e8592987984608572",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-parent",
+            "version": "4.0.5"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.5/jaxb-parent-4.0.5.pom",
+          "sha256": "c6b56efe9cc59f3c78353d284c55e8dcf162be85f822b26cf81023c6f908f7f7",
+          "licenses": [
+            {
+              "name": "Eclipse Distribution License - v 1.0",
+              "url": "http://www.eclipse.org/org/documents/edl-v10.php",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/eclipse-ee4j/jaxb-ri.git",
+          "parent": {
+            "groupId": "com.sun.xml.bind",
+            "artifactId": "jaxb-bom-ext",
+            "version": "4.0.5"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jaxb-impl-2.3.1.jar",
+      "sha256": "e6c9e0f1830fd5f7c30c25ecf5e2046c5668b06d304add89d2f027d5072297d0",
+      "artifact": {
+        "coordinates": "com.sun.xml.bind:jaxb-impl:2.3.1",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.3.1/jaxb-impl-2.3.1.jar",
+        "maven_sha256": "e6c9e0f1830fd5f7c30c25ecf5e2046c5668b06d304add89d2f027d5072297d0",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.3.1/jaxb-impl-2.3.1.pom",
+          "sha256": "a3a1436df1f96d7457282c61ae454c6bb7c51a8d3c96f95e212cccedfe347b64",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-bundles",
+            "version": "2.3.1"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-bundles/2.3.1/jaxb-bundles-2.3.1.pom",
+          "sha256": "944053e24aaf45e2732d17abeb7521be67337bf4c1a4c020ab8086992307f79a",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-parent",
+            "version": "2.3.1"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.1/jaxb-parent-2.3.1.pom",
+          "sha256": "f699ef37ec7966e284742dfca83075221179041a9a49aef7991280192604462d",
+          "licenses": [
+            {
+              "name": "CDDL+GPL License",
+              "url": "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "http://java.net/projects/jaxb/sources/v2/show",
+          "parent": {
+            "groupId": "com.sun.xml.bind",
+            "artifactId": "jaxb-bom-ext",
+            "version": "2.3.1"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jaxb-runtime-4.0.5.jar",
+      "sha256": "485d8940e76373a7f300815ea5504bf5b726c234425ad30971019d133124cca4",
+      "artifact": {
+        "coordinates": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar",
+        "maven_sha256": "485d8940e76373a7f300815ea5504bf5b726c234425ad30971019d133124cca4",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.pom",
+          "sha256": "77c4fa06e2d9c953762c2e63517377a1ae2859b181b2c133759cb5a682a88ca0",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-runtime-parent",
+            "version": "4.0.5"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.5/jaxb-runtime-parent-4.0.5.pom",
+          "sha256": "fe77f907e1d1453aad69af76357ead10a5e4933c8a908f57a99da7713070d340",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-parent",
+            "version": "4.0.5"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.5/jaxb-parent-4.0.5.pom",
+          "sha256": "c6b56efe9cc59f3c78353d284c55e8dcf162be85f822b26cf81023c6f908f7f7",
+          "licenses": [
+            {
+              "name": "Eclipse Distribution License - v 1.0",
+              "url": "http://www.eclipse.org/org/documents/edl-v10.php",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/eclipse-ee4j/jaxb-ri.git",
+          "parent": {
+            "groupId": "com.sun.xml.bind",
+            "artifactId": "jaxb-bom-ext",
+            "version": "4.0.5"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jbig2-imageio-3.0.4.jar",
+      "sha256": "29cb2951622f10acf61fd0656c4e6fa5562194a9095f7a1d26aa426e2f6b17eb",
+      "artifact": {
+        "coordinates": "org.apache.pdfbox:jbig2-imageio:3.0.4",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.jar",
+        "maven_sha256": "29cb2951622f10acf61fd0656c4e6fa5562194a9095f7a1d26aa426e2f6b17eb",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.pom",
+          "sha256": "28ea7c4ac92e0985f796a8bc6890a7bef8926707adadfd1e2c856c9b0be1a38b",
+          "licenses": [],
+          "scm_url": "https://git-wip-us.apache.org/repos/asf?p=pdfbox-jbig2.git",
+          "parent": {
+            "groupId": "org.apache",
+            "artifactId": "apache",
+            "version": "18"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom",
+          "sha256": "7831307285fd475bbc36b20ae38e7882f11c3153b1d5930f852d44eda8f33c17",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://svn.apache.org/viewvc/maven/pom/tags/apache-18",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jcip-annotations-1.0.jar",
+      "sha256": "be5805392060c71474bf6c9a67a099471274d30b83eef84bfc4e0889a4f1dcc0",
+      "artifact": {
+        "coordinates": "net.jcip:jcip-annotations:1.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar",
+        "maven_sha256": "be5805392060c71474bf6c9a67a099471274d30b83eef84bfc4e0889a4f1dcc0",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom",
+          "sha256": "5c19e6848cc550a95664fb082304bc5f9fcf7b672faf03af1635f0e93c268177",
+          "licenses": [],
+          "scm_url": "",
+          "parent": null
+        }
+      ],
+      "status": "license_not_declared_in_pom_chain",
+      "additional_primary_license_evidence": {
+        "url": "https://jcip.net/annotations/doc/net/jcip/annotations/package-summary.html",
+        "copyright": "Copyright (c) 2005 Brian Goetz and Tim Peierls",
+        "license": "Creative Commons Attribution 2.5"
+      }
+    },
+    {
+      "file": "jfreechart-1.5.6.jar",
+      "sha256": "be7ae6310ca005ac98eceb74fa514af88cad098c808845786f762ca08a5b4bb3",
+      "artifact": {
+        "coordinates": "org.jfree:jfreechart:1.5.6",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/jfree/jfreechart/1.5.6/jfreechart-1.5.6.jar",
+        "maven_sha256": "be7ae6310ca005ac98eceb74fa514af88cad098c808845786f762ca08a5b4bb3",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/jfree/jfreechart/1.5.6/jfreechart-1.5.6.pom",
+          "sha256": "5944bfbe8ae7f6bda8b6c6e93a5d761e6de9767dbb32f523d4cb816317416d71",
+          "licenses": [
+            {
+              "name": "GNU Lesser General Public Licence",
+              "url": "http://www.gnu.org/licenses/lgpl.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/jfree/jfreechart",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jgoodies-common-1.8.1.jar",
+      "sha256": "ddca10c16e1dc7a1b399c14580f0aae23014851e57d224cb96c260e6d649d2ad",
+      "artifact": {
+        "coordinates": "com.jgoodies:jgoodies-common:1.8.1",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-common/1.8.1/jgoodies-common-1.8.1.jar",
+        "maven_sha256": "ddca10c16e1dc7a1b399c14580f0aae23014851e57d224cb96c260e6d649d2ad",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-common/1.8.1/jgoodies-common-1.8.1.pom",
+          "sha256": "89ad9bf82af5c0bd6e4adf159f60813617b876d1cbda1676a48973bf640922f2",
+          "licenses": [
+            {
+              "name": "The BSD License",
+              "url": "http://www.opensource.org/licenses/bsd-license.html",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.sonatype.oss",
+            "artifactId": "oss-parent",
+            "version": "7"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jgoodies-forms-1.9.0.jar",
+      "sha256": "755c79501abd806f5aa83257dc88b2ca5923e6965f3cbfe873116c7c9768210a",
+      "artifact": {
+        "coordinates": "com.jgoodies:jgoodies-forms:1.9.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-forms/1.9.0/jgoodies-forms-1.9.0.jar",
+        "maven_sha256": "755c79501abd806f5aa83257dc88b2ca5923e6965f3cbfe873116c7c9768210a",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-forms/1.9.0/jgoodies-forms-1.9.0.pom",
+          "sha256": "5cfa1ea02c4dc19d27dd5afca513f29c67ab344d1aca553d8f16f15b698e4f85",
+          "licenses": [
+            {
+              "name": "The BSD License",
+              "url": "http://www.opensource.org/licenses/bsd-license.html",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "https://svn.java.net/svn/forms~svn",
+          "parent": {
+            "groupId": "org.sonatype.oss",
+            "artifactId": "oss-parent",
+            "version": "7"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jgoodies-looks-2.7.0.jar",
+      "sha256": "d7dfb4d041c28eae836aa0910c91c1b95b29c28e833200d2ef6d311fa66b4c6d",
+      "artifact": {
+        "coordinates": "com.jgoodies:jgoodies-looks:2.7.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-looks/2.7.0/jgoodies-looks-2.7.0.jar",
+        "maven_sha256": "d7dfb4d041c28eae836aa0910c91c1b95b29c28e833200d2ef6d311fa66b4c6d",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-looks/2.7.0/jgoodies-looks-2.7.0.pom",
+          "sha256": "570817eef528bf20fb607f404bdf535cb08baf28ed9748ff4d24a2b2f64cd93d",
+          "licenses": [
+            {
+              "name": "The BSD License",
+              "url": "http://www.opensource.org/licenses/bsd-license.html",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "https://svn.java.net/svn/looks~svn",
+          "parent": {
+            "groupId": "org.sonatype.oss",
+            "artifactId": "oss-parent",
+            "version": "7"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jgrapht-core-1.5.2.jar",
+      "sha256": "dfa596e9f0d0838f1b5e81dd0cd60e3a76c2c290ac25a0a029ffde58cf5e4c14",
+      "artifact": {
+        "coordinates": "org.jgrapht:jgrapht-core:1.5.2",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.5.2/jgrapht-core-1.5.2.jar",
+        "maven_sha256": "dfa596e9f0d0838f1b5e81dd0cd60e3a76c2c290ac25a0a029ffde58cf5e4c14",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.5.2/jgrapht-core-1.5.2.pom",
+          "sha256": "47e32519791d0d06e5c6c88da8c519800f4effd336c7d6d5604fdfd74f927fca",
+          "licenses": [
+            {
+              "name": "GNU Lesser General Public License Version 2.1, February 1999",
+              "url": "http://jgrapht.sourceforge.net/LGPL.html",
+              "distribution": "repo"
+            },
+            {
+              "name": "Eclipse Public License (EPL) 2.0",
+              "url": "http://www.eclipse.org/legal/epl-v20.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.jgrapht",
+            "artifactId": "jgrapht",
+            "version": "1.5.2"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jheaps-0.14.jar",
+      "sha256": "49a9898da3758659388f1333c53ccadb6fbd142a7d18aa7b1a33577090684279",
+      "artifact": {
+        "coordinates": "org.jheaps:jheaps:0.14",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/jheaps/jheaps/0.14/jheaps-0.14.jar",
+        "maven_sha256": "49a9898da3758659388f1333c53ccadb6fbd142a7d18aa7b1a33577090684279",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/jheaps/jheaps/0.14/jheaps-0.14.pom",
+          "sha256": "1607b620e1f2b4e1a0f4891010b3490b1fb4a83e713ac4d38b08dc2c67fa3e51",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/d-michail/jheaps.git",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jna-5.14.0.jar",
+      "sha256": "34ed1e1f27fa896bca50dbc4e99cf3732967cec387a7a0d5e3486c09673fe8c6",
+      "artifact": {
+        "coordinates": "net.java.dev.jna:jna:5.14.0",
+        "artifact_url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar",
+        "maven_sha256": "34ed1e1f27fa896bca50dbc4e99cf3732967cec387a7a0d5e3486c09673fe8c6",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.pom",
+          "sha256": "e04e25951501df25adc7b1dcdb6c53373c94897b84d3e14921292763ee07ae3d",
+          "licenses": [
+            {
+              "name": "LGPL-2.1-or-later",
+              "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1",
+              "distribution": "repo"
+            },
+            {
+              "name": "Apache-2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/java-native-access/jna",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "jsr305-3.0.2.jar",
+      "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+      "artifact": {
+        "coordinates": "com.google.code.findbugs:jsr305:3.0.2",
+        "artifact_url": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+        "maven_sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom",
+          "sha256": "19889dbdf1b254b2601a5ee645b8147a974644882297684c798afe5d63d78dfe",
+          "licenses": [
+            {
+              "name": "The Apache Software License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://code.google.com/p/jsr-305/",
+          "parent": {
+            "groupId": "org.sonatype.oss",
+            "artifactId": "oss-parent",
+            "version": "7"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "leptonica-1.87.0-1.5.13-linux-arm64.jar",
+      "sha256": "44f7f7ff4c565655627098a0b1057848a5ecc8efdc6ee614f770000b54ae26f8",
+      "artifact": {
+        "coordinates": "org.bytedeco:leptonica:1.87.0-1.5.13",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13-linux-arm64.jar",
+        "maven_sha256": "44f7f7ff4c565655627098a0b1057848a5ecc8efdc6ee614f770000b54ae26f8",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13.pom",
+          "sha256": "8c752e61829f1d90ea8428085d64290dd688de0fdff397f7eb463998e7055db4",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.bytedeco",
+            "artifactId": "javacpp-presets",
+            "version": "1.5.13"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.5.13/javacpp-presets-1.5.13.pom",
+          "sha256": "2a5b4438cbff6ea123681852fc47d88f1d38f19e30b2ea1979097d716a21768a",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0",
+              "distribution": "repo"
+            },
+            {
+              "name": "GNU General Public License (GPL) version 2, or any later version",
+              "url": "http://www.gnu.org/licenses/",
+              "distribution": "repo"
+            },
+            {
+              "name": "GPLv2 with Classpath exception",
+              "url": "http://www.gnu.org/software/classpath/license.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/bytedeco/javacpp-presets",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "leptonica-1.87.0-1.5.13-linux-x86_64.jar",
+      "sha256": "338fdd1de01c20a86f0d989415c4161bbb4e95cd813a1b9ad46c7e14dd2978c2",
+      "artifact": {
+        "coordinates": "org.bytedeco:leptonica:1.87.0-1.5.13",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13-linux-x86_64.jar",
+        "maven_sha256": "338fdd1de01c20a86f0d989415c4161bbb4e95cd813a1b9ad46c7e14dd2978c2",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13.pom",
+          "sha256": "8c752e61829f1d90ea8428085d64290dd688de0fdff397f7eb463998e7055db4",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.bytedeco",
+            "artifactId": "javacpp-presets",
+            "version": "1.5.13"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.5.13/javacpp-presets-1.5.13.pom",
+          "sha256": "2a5b4438cbff6ea123681852fc47d88f1d38f19e30b2ea1979097d716a21768a",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0",
+              "distribution": "repo"
+            },
+            {
+              "name": "GNU General Public License (GPL) version 2, or any later version",
+              "url": "http://www.gnu.org/licenses/",
+              "distribution": "repo"
+            },
+            {
+              "name": "GPLv2 with Classpath exception",
+              "url": "http://www.gnu.org/software/classpath/license.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/bytedeco/javacpp-presets",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "leptonica-1.87.0-1.5.13.jar",
+      "sha256": "aef3a16dde6f2b94fafa3fd1263bac10f5ef85cdf5cf1fe490a3158940384884",
+      "artifact": {
+        "coordinates": "org.bytedeco:leptonica:1.87.0-1.5.13",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13.jar",
+        "maven_sha256": "aef3a16dde6f2b94fafa3fd1263bac10f5ef85cdf5cf1fe490a3158940384884",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13.pom",
+          "sha256": "8c752e61829f1d90ea8428085d64290dd688de0fdff397f7eb463998e7055db4",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.bytedeco",
+            "artifactId": "javacpp-presets",
+            "version": "1.5.13"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.5.13/javacpp-presets-1.5.13.pom",
+          "sha256": "2a5b4438cbff6ea123681852fc47d88f1d38f19e30b2ea1979097d716a21768a",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0",
+              "distribution": "repo"
+            },
+            {
+              "name": "GNU General Public License (GPL) version 2, or any later version",
+              "url": "http://www.gnu.org/licenses/",
+              "distribution": "repo"
+            },
+            {
+              "name": "GPLv2 with Classpath exception",
+              "url": "http://www.gnu.org/software/classpath/license.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/bytedeco/javacpp-presets",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "logback-classic-1.4.14.jar",
+      "sha256": "8e832f7263ca606ae36dabb2d8b24c2f43d82cf634e81dad9d1640fa6ee3c596",
+      "artifact": {
+        "coordinates": "ch.qos.logback:logback-classic:1.4.14",
+        "artifact_url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar",
+        "maven_sha256": "8e832f7263ca606ae36dabb2d8b24c2f43d82cf634e81dad9d1640fa6ee3c596",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom",
+          "sha256": "af8aaba60627a262fd36594d9a032f5001a707f04e84bdc9c7b2317d1fe13cbd",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "ch.qos.logback",
+            "artifactId": "logback-parent",
+            "version": "1.4.14"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom",
+          "sha256": "e5b75d3def04275764504a17a7c1aa1e3ee370a5b1a548884bbe157ebdde5efd",
+          "licenses": [
+            {
+              "name": "Eclipse Public License - v 1.0",
+              "url": "http://www.eclipse.org/legal/epl-v10.html",
+              "distribution": ""
+            },
+            {
+              "name": "GNU Lesser General Public License",
+              "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "https://github.com/qos-ch/logback",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "logback-core-1.4.14.jar",
+      "sha256": "f8c2f05f42530b1852739507c1792f0080167850ed8f396444c6913d6617a293",
+      "artifact": {
+        "coordinates": "ch.qos.logback:logback-core:1.4.14",
+        "artifact_url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar",
+        "maven_sha256": "f8c2f05f42530b1852739507c1792f0080167850ed8f396444c6913d6617a293",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom",
+          "sha256": "5c505592d14f66aa7f177c69b933e4704fd1d694b62f9493ea97826ef550023d",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "ch.qos.logback",
+            "artifactId": "logback-parent",
+            "version": "1.4.14"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom",
+          "sha256": "e5b75d3def04275764504a17a7c1aa1e3ee370a5b1a548884bbe157ebdde5efd",
+          "licenses": [
+            {
+              "name": "Eclipse Public License - v 1.0",
+              "url": "http://www.eclipse.org/legal/epl-v10.html",
+              "distribution": ""
+            },
+            {
+              "name": "GNU Lesser General Public License",
+              "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "https://github.com/qos-ch/logback",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "org.apache.commons.io-2.4.jar",
+      "sha256": "3afaf44a818cefb65e104597587ac6147110bc9625a22c68de6659a5a0ab84fc",
+      "artifact": {
+        "coordinates": "org.apache.directory.studio:org.apache.commons.io:2.4",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/apache/directory/studio/org.apache.commons.io/2.4/org.apache.commons.io-2.4.jar",
+        "maven_sha256": "3afaf44a818cefb65e104597587ac6147110bc9625a22c68de6659a5a0ab84fc"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/directory/studio/org.apache.commons.io/2.4/org.apache.commons.io-2.4.pom",
+          "sha256": "a07cedc05ffacc92a1b951443207d5d79f7823e4ff954339b2b7b0931e0df3b5",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.apache.directory.studio",
+            "artifactId": "parent-libraries",
+            "version": "2.0.0.v20130125"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130125/parent-libraries-2.0.0.v20130125.pom",
+          "sha256": "037c30a3dfe46210b021735d63516aa898b4524390a272a53bfefe24bc3615b1",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.apache.directory.studio",
+            "artifactId": "parent",
+            "version": "2.0.0.v20130125"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130125/parent-2.0.0.v20130125.pom",
+          "sha256": "a8937ce27731d33d81535a1de11294806df30dfa19e51479f86d01c46e59987d",
+          "licenses": [],
+          "scm_url": "https://svn.apache.org/viewvc/directory/studio/tags/2.0.0.v20130125",
+          "parent": {
+            "groupId": "org.apache.directory.project",
+            "artifactId": "project",
+            "version": "27"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/directory/project/project/27/project-27.pom",
+          "sha256": "7112af191af37bcb761e9bdb3a4d775feb2d4e4e527025b1443896beb81bb316",
+          "licenses": [],
+          "scm_url": "http://svn.apache.org/viewvc/directory/project/tags/27",
+          "parent": {
+            "groupId": "org.apache",
+            "artifactId": "apache",
+            "version": "10"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom",
+          "sha256": "802feece72852dafcbd0a425a60367c72c5cb9b6ea5aae59481128569189daf9",
+          "licenses": [
+            {
+              "name": "The Apache Software License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "http://svn.apache.org/viewvc/maven/pom/tags/apache-10",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "pdfbox-3.0.6.jar",
+      "sha256": "87b9122b78f521fef83e2806d98e7e483e049f087ea6267b72d319f672019101",
+      "artifact": {
+        "coordinates": "org.apache.pdfbox:pdfbox:3.0.6",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.6/pdfbox-3.0.6.jar",
+        "maven_sha256": "87b9122b78f521fef83e2806d98e7e483e049f087ea6267b72d319f672019101",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.6/pdfbox-3.0.6.pom",
+          "sha256": "3e438ee0d2d7549d0854f0f2e4b26758aebdf4e72fd4931349a7c72f33c8d52f",
+          "licenses": [],
+          "scm_url": "https://svn.apache.org/viewvc/pdfbox/tags/3.0.6/pdfbox",
+          "parent": {
+            "groupId": "org.apache.pdfbox",
+            "artifactId": "pdfbox-parent",
+            "version": "3.0.6"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/3.0.6/pdfbox-parent-3.0.6.pom",
+          "sha256": "11dccdb52a2f144a48ba2fbcf67a46adc4da37925943fc4d9212df892331a8de",
+          "licenses": [],
+          "scm_url": "https://svn.apache.org/viewvc/pdfbox/tags/3.0.6/parent",
+          "parent": {
+            "groupId": "org.apache",
+            "artifactId": "apache",
+            "version": "35"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/apache/35/apache-35.pom",
+          "sha256": "ea297dcd114136e8b8e8b630230d52a76c2fc69f6c5db25d672b1857000728b8",
+          "licenses": [
+            {
+              "name": "Apache-2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/apache/maven-apache-parent/tree/${project.scm.tag}",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "pdfbox-io-3.0.6.jar",
+      "sha256": "191eac63756ff0dbc841e397e97cfa0cbdfd2515972d60ef5639a0aa884a7e47",
+      "artifact": {
+        "coordinates": "org.apache.pdfbox:pdfbox-io:3.0.6",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.6/pdfbox-io-3.0.6.jar",
+        "maven_sha256": "191eac63756ff0dbc841e397e97cfa0cbdfd2515972d60ef5639a0aa884a7e47",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.6/pdfbox-io-3.0.6.pom",
+          "sha256": "10295a8b7923f7bd3086538395e1d5a3f5cb43fe74ded34cb07c32f7b3f45f85",
+          "licenses": [],
+          "scm_url": "https://svn.apache.org/viewvc/pdfbox/tags/3.0.6/io",
+          "parent": {
+            "groupId": "org.apache.pdfbox",
+            "artifactId": "pdfbox-parent",
+            "version": "3.0.6"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-parent/3.0.6/pdfbox-parent-3.0.6.pom",
+          "sha256": "11dccdb52a2f144a48ba2fbcf67a46adc4da37925943fc4d9212df892331a8de",
+          "licenses": [],
+          "scm_url": "https://svn.apache.org/viewvc/pdfbox/tags/3.0.6/parent",
+          "parent": {
+            "groupId": "org.apache",
+            "artifactId": "apache",
+            "version": "35"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/apache/apache/35/apache-35.pom",
+          "sha256": "ea297dcd114136e8b8e8b630230d52a76c2fc69f6c5db25d672b1857000728b8",
+          "licenses": [
+            {
+              "name": "Apache-2.0",
+              "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/apache/maven-apache-parent/tree/${project.scm.tag}",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "proxymusic-4.0.3.jar",
+      "sha256": "933fe64e7136b0d98a186b61fc139fc9e1ee98b64662b60c9cf9af37b5f8f107",
+      "artifact": {
+        "coordinates": "org.audiveris:proxymusic:4.0.3",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/audiveris/proxymusic/4.0.3/proxymusic-4.0.3.jar",
+        "maven_sha256": "933fe64e7136b0d98a186b61fc139fc9e1ee98b64662b60c9cf9af37b5f8f107",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/audiveris/proxymusic/4.0.3/proxymusic-4.0.3.pom",
+          "sha256": "5ad97474261f17e50f8ea287d8e2d994765cc380a33b50312d75256ae969f52a",
+          "licenses": [
+            {
+              "name": "GNU General Lesser Public License (LGPL) version 3.0",
+              "url": "http://www.gnu.org/licenses/lgpl-3.0.txt",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "https://github.com/Audiveris/proxymusic",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "reflections-0.10.2.jar",
+      "sha256": "938a2d08fe54050d7610b944d8ddc3a09355710d9e6be0aac838dbc04e9a2825",
+      "artifact": {
+        "coordinates": "org.reflections:reflections:0.10.2",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar",
+        "maven_sha256": "938a2d08fe54050d7610b944d8ddc3a09355710d9e6be0aac838dbc04e9a2825",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.pom",
+          "sha256": "b6caa3eb7d35bd756ed6eb0a2a81868b8d3c0f6f42244feae41760ac66306d87",
+          "licenses": [
+            {
+              "name": "WTFPL",
+              "url": "http://www.wtfpl.net/",
+              "distribution": ""
+            },
+            {
+              "name": "The Apache Software License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+              "distribution": ""
+            }
+          ],
+          "scm_url": "https://github.com/ronmamo/reflections/issues",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "slf4j-api-2.0.17.jar",
+      "sha256": "7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832",
+      "artifact": {
+        "coordinates": "org.slf4j:slf4j-api:2.0.17",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
+        "maven_sha256": "7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.pom",
+          "sha256": "150c40287f7cecdc21b9380caac98e928c4f33c023db6b348df1c5ac977026bf",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.slf4j",
+            "artifactId": "slf4j-parent",
+            "version": "2.0.17"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.17/slf4j-parent-2.0.17.pom",
+          "sha256": "95cd71e852dfdb29126e58b7b939d57ec2b2e6024391852e0b545dee082bbf3b",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.slf4j",
+            "artifactId": "slf4j-bom",
+            "version": "2.0.17"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.17/slf4j-bom-2.0.17.pom",
+          "sha256": "f78d27b642b4b886eb839fc102b5cd9fe7f30f37599ffe68185be4e1609031e9",
+          "licenses": [
+            {
+              "name": "MIT",
+              "url": "https://opensource.org/license/mit",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/qos-ch/slf4j",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "tesseract-5.5.2-1.5.13-linux-arm64.jar",
+      "sha256": "b866de92ccdbc1baa6c817942a9023b67e333b1f9da0904f3707dc46fce9af94",
+      "artifact": {
+        "coordinates": "org.bytedeco:tesseract:5.5.2-1.5.13",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13-linux-arm64.jar",
+        "maven_sha256": "b866de92ccdbc1baa6c817942a9023b67e333b1f9da0904f3707dc46fce9af94",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13.pom",
+          "sha256": "5b2880acc31ac1797c4fbc5f51160cfb62dc1dacba8574613ce84b566ce31775",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.bytedeco",
+            "artifactId": "javacpp-presets",
+            "version": "1.5.13"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.5.13/javacpp-presets-1.5.13.pom",
+          "sha256": "2a5b4438cbff6ea123681852fc47d88f1d38f19e30b2ea1979097d716a21768a",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0",
+              "distribution": "repo"
+            },
+            {
+              "name": "GNU General Public License (GPL) version 2, or any later version",
+              "url": "http://www.gnu.org/licenses/",
+              "distribution": "repo"
+            },
+            {
+              "name": "GPLv2 with Classpath exception",
+              "url": "http://www.gnu.org/software/classpath/license.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/bytedeco/javacpp-presets",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "tesseract-5.5.2-1.5.13-linux-x86_64.jar",
+      "sha256": "4920a813945512052e2a210b7168a8259e2d6020619c0a23457f59bbb1be2a5e",
+      "artifact": {
+        "coordinates": "org.bytedeco:tesseract:5.5.2-1.5.13",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13-linux-x86_64.jar",
+        "maven_sha256": "4920a813945512052e2a210b7168a8259e2d6020619c0a23457f59bbb1be2a5e",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13.pom",
+          "sha256": "5b2880acc31ac1797c4fbc5f51160cfb62dc1dacba8574613ce84b566ce31775",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.bytedeco",
+            "artifactId": "javacpp-presets",
+            "version": "1.5.13"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.5.13/javacpp-presets-1.5.13.pom",
+          "sha256": "2a5b4438cbff6ea123681852fc47d88f1d38f19e30b2ea1979097d716a21768a",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0",
+              "distribution": "repo"
+            },
+            {
+              "name": "GNU General Public License (GPL) version 2, or any later version",
+              "url": "http://www.gnu.org/licenses/",
+              "distribution": "repo"
+            },
+            {
+              "name": "GPLv2 with Classpath exception",
+              "url": "http://www.gnu.org/software/classpath/license.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/bytedeco/javacpp-presets",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "tesseract-5.5.2-1.5.13.jar",
+      "sha256": "f57edd554a37c3432fa82830099a07f8eb78fa55468211253320d38e3fcb9ebd",
+      "artifact": {
+        "coordinates": "org.bytedeco:tesseract:5.5.2-1.5.13",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13.jar",
+        "maven_sha256": "f57edd554a37c3432fa82830099a07f8eb78fa55468211253320d38e3fcb9ebd",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13.pom",
+          "sha256": "5b2880acc31ac1797c4fbc5f51160cfb62dc1dacba8574613ce84b566ce31775",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "org.bytedeco",
+            "artifactId": "javacpp-presets",
+            "version": "1.5.13"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.5.13/javacpp-presets-1.5.13.pom",
+          "sha256": "2a5b4438cbff6ea123681852fc47d88f1d38f19e30b2ea1979097d716a21768a",
+          "licenses": [
+            {
+              "name": "Apache License, Version 2.0",
+              "url": "http://www.apache.org/licenses/LICENSE-2.0",
+              "distribution": "repo"
+            },
+            {
+              "name": "GNU General Public License (GPL) version 2, or any later version",
+              "url": "http://www.gnu.org/licenses/",
+              "distribution": "repo"
+            },
+            {
+              "name": "GPLv2 with Classpath exception",
+              "url": "http://www.gnu.org/software/classpath/license.html",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/bytedeco/javacpp-presets",
+          "parent": null
+        }
+      ],
+      "status": "source_pom_declares_license"
+    },
+    {
+      "file": "txw2-4.0.5.jar",
+      "sha256": "917355bc451481f30d043b24d123110517966af34383901773882810dca480e5",
+      "artifact": {
+        "coordinates": "org.glassfish.jaxb:txw2:4.0.5",
+        "artifact_url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar",
+        "maven_sha256": "917355bc451481f30d043b24d123110517966af34383901773882810dca480e5",
+        "result": "sha256_matches"
+      },
+      "pom_chain": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.pom",
+          "sha256": "6b6833756032e1839a40146815a598ec8b0583a2effbd45ddf5d54301f4acbab",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-txw-parent",
+            "version": "4.0.5"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.5/jaxb-txw-parent-4.0.5.pom",
+          "sha256": "caeec4335f58a8e39c97ea0ae89bea9c2b49ae8d9b0fcd925238e028d384494f",
+          "licenses": [],
+          "scm_url": "",
+          "parent": {
+            "groupId": "com.sun.xml.bind.mvn",
+            "artifactId": "jaxb-parent",
+            "version": "4.0.5"
+          }
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.5/jaxb-parent-4.0.5.pom",
+          "sha256": "c6b56efe9cc59f3c78353d284c55e8dcf162be85f822b26cf81023c6f908f7f7",
+          "licenses": [
+            {
+              "name": "Eclipse Distribution License - v 1.0",
+              "url": "http://www.eclipse.org/org/documents/edl-v10.php",
+              "distribution": "repo"
+            }
+          ],
+          "scm_url": "https://github.com/eclipse-ee4j/jaxb-ri.git",
+          "parent": {
+            "groupId": "com.sun.xml.bind",
+            "artifactId": "jaxb-bom-ext",
+            "version": "4.0.5"
+          }
+        }
+      ],
+      "status": "source_pom_declares_license"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# UNINSTALLED CANDIDATE: install only after independently reviewing the
+# worker's sshd configuration and ensuring a separate administrator login
+# remains functional. Run sshd -t and sshd -T with the actual match context.
+# The account has no interactive shell access: its fixed command can only
+# connect to the worker-owned Unix socket. /usr/bin/nc must be verified to
+# support -U and correct EOF handling on the target host.
+# Use a root-owned authorized-keys file and restrict its dedicated public key
+# with from="<API server private IP>" after independently checking that IP.
+Match User maestivo-omr-ingress
+    AuthorizedKeysFile /etc/ssh/maestivo-omr-ingress.keys
+    AuthenticationMethods publickey
+    PasswordAuthentication no
+    KbdInteractiveAuthentication no
+    DisableForwarding yes
+    AllowTcpForwarding no
+    AllowStreamLocalForwarding no
+    AllowAgentForwarding no
+    X11Forwarding no
+    PermitTTY no
+    PermitTunnel no
+    PermitUserRC no
+    ForceCommand /usr/bin/nc -U /run/maestivo-omr/worker.sock

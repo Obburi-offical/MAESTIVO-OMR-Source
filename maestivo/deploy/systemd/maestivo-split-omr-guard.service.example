@@ -1,0 +1,31 @@
+# UNINSTALLED candidate: checks this worker VM, not a remote API.
+[Unit]
+Description=MAESTIVO split OMR worker resource guard
+BindsTo=ssh.service maestivo-ephemeral-swap.service maestivo-split-scratch.service
+After=ssh.service maestivo-ephemeral-swap.service maestivo-split-scratch.service
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=notify
+NotifyAccess=all
+User=root
+Group=root
+ExecStart=/opt/maestivo-runtime/bin/node /srv/maestivo/releases/REVIEWED/maestivo-split-omr-guard.mjs
+TimeoutStartSec=15s
+WatchdogSec=12s
+Restart=no
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectHome=yes
+ProtectSystem=strict
+ProtectControlGroups=yes
+ProtectKernelTunables=yes
+RestrictAddressFamilies=AF_UNIX
+CapabilityBoundingSet=
+MemoryMax=64M
+TasksMax=32
+LimitCORE=0
+
+[Install]
+WantedBy=multi-user.target

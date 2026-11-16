@@ -1,0 +1,9 @@
+net.jcip:jcip-annotations:1.0
+Copyright (c) 2005 Brian Goetz and Tim Peierls.
+The authors identify the license as Creative Commons Attribution 2.5:
+https://creativecommons.org/licenses/by/2.5/
+Authoritative package attribution: https://jcip.net/annotations/doc/net/jcip/annotations/package-summary.html
+
+This notice is a review draft for the byte-matched candidate dependency; it is
+not a determination that the complete attribution or distribution obligations
+for this package or the complete candidate have been satisfied.

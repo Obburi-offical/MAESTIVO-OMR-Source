@@ -1,0 +1,87 @@
+{
+  "scope": "Recorded version leads only; not verified as complete native build inputs or source/binary correspondence.",
+  "snapshots": [
+    {
+      "name": "presets",
+      "repo": "bytedeco/javacpp-presets",
+      "commit": "60df69b176e3623da1d53db432a5a3a82a13f2ea",
+      "url": "https://codeload.github.com/bytedeco/javacpp-presets/tar.gz/60df69b176e3623da1d53db432a5a3a82a13f2ea",
+      "sha256": "f859626041ab40ebf36d1a7576a95a60f47e2417bd567a3c883c3258d205f5c7",
+      "version": "1.5.13"
+    },
+    {
+      "name": "tesseract",
+      "repo": "tesseract-ocr/tesseract",
+      "commit": "6e1d56a847e697de07b38619356550e5cf4e8633",
+      "url": "https://codeload.github.com/tesseract-ocr/tesseract/tar.gz/6e1d56a847e697de07b38619356550e5cf4e8633",
+      "sha256": "51342815a262a5c1d000bab44503ddbf71ef210053375d504f619ca7a3b381bd",
+      "version": "5.5.2"
+    },
+    {
+      "name": "leptonica",
+      "repo": "DanBloomberg/leptonica",
+      "commit": "13275a278eb55b5746e33f95fbf5a2c8f604b3ab",
+      "url": "https://codeload.github.com/DanBloomberg/leptonica/tar.gz/13275a278eb55b5746e33f95fbf5a2c8f604b3ab",
+      "sha256": "e72242133adf678e8584081a506ca3a665c8f6f6de8c3fe7b47d1d5fcf9a4ce4",
+      "version": "1.87.0"
+    },
+    {
+      "name": "zlib",
+      "repo": "madler/zlib",
+      "commit": "da607da739fa6047df13e66a2af6b8bec7c2a498",
+      "url": "https://codeload.github.com/madler/zlib/tar.gz/da607da739fa6047df13e66a2af6b8bec7c2a498",
+      "sha256": "b9258cf6254e7f7c37f1cd61dba943a1c5ea3cff5718c789834dac359094f5f7",
+      "version": "1.3.2"
+    },
+    {
+      "name": "libjpeg-turbo",
+      "repo": "libjpeg-turbo/libjpeg-turbo",
+      "commit": "ec32420f6b5dfa4e86883d42b209e8371e55aeb5",
+      "url": "https://codeload.github.com/libjpeg-turbo/libjpeg-turbo/tar.gz/ec32420f6b5dfa4e86883d42b209e8371e55aeb5",
+      "sha256": "25f7478c335940f7abca4d739d61a15e2ea4af44290b2c30aa45775db7533a04",
+      "version": "3.0.1"
+    },
+    {
+      "name": "libpng",
+      "repo": "pnggroup/libpng",
+      "commit": "4e3f57d50f552841550a36eabbb3fbcecacb7750",
+      "url": "https://codeload.github.com/pnggroup/libpng/tar.gz/4e3f57d50f552841550a36eabbb3fbcecacb7750",
+      "sha256": "0327d94ddd66859be9eb904c71baa207e32869397d3d9936b7c1ba8191d6c6f3",
+      "version": "1.6.53"
+    },
+    {
+      "name": "libwebp",
+      "repo": "webmproject/libwebp",
+      "commit": "4fa21912338357f89e4fd51cf2368325b59e9bd9",
+      "url": "https://codeload.github.com/webmproject/libwebp/tar.gz/4fa21912338357f89e4fd51cf2368325b59e9bd9",
+      "sha256": "923f3382a47a2af185c3240c954cf004428b237bd7317413a95146d01eb4b94b",
+      "version": "1.6.0"
+    },
+    {
+      "name": "openjpeg",
+      "repo": "uclouvain/openjpeg",
+      "commit": "6c4a29b00211eb0430fa0e5e890f1ce5c80f409f",
+      "url": "https://codeload.github.com/uclouvain/openjpeg/tar.gz/6c4a29b00211eb0430fa0e5e890f1ce5c80f409f",
+      "sha256": "c2bb373d68286ef475713f251504f59be6e44980dc5c56314bd4a7681fc69fce",
+      "version": "2.5.4"
+    },
+    {
+      "name": "nasm-2.14",
+      "url": "https://download.videolan.org/contrib/nasm/nasm-2.14.tar.gz",
+      "sha256": "c7a66d98d306f2366169cf0dc5edb4bba4c11887c8cda1eddefee4b6fac80363",
+      "version": "2.14"
+    },
+    {
+      "name": "tiff-4.7.1",
+      "url": "https://download.osgeo.org/libtiff/tiff-4.7.1.tar.gz",
+      "sha256": "f698d94f3103da8ca7438d84e0344e453fe0ba3b7486e04c5bf7a9a3fabe9b69",
+      "version": "4.7.1"
+    },
+    {
+      "name": "giflib-5.2.2-debian-orig",
+      "url": "https://deb.debian.org/debian/pool/main/g/giflib/giflib_5.2.2.orig.tar.gz",
+      "sha256": "be7ffbd057cadebe2aa144542fd90c6838c6a083b5e8a9048b8ee3b66b29d5fb",
+      "version": "5.2.2"
+    }
+  ]
+}

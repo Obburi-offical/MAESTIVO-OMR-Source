@@ -1,0 +1,22 @@
+{
+  "name": "@maestivo/api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc --noEmit -p tsconfig.json",
+    "test:score-session": "node --experimental-strip-types --test src/active-score-session.test.mjs"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "0.9.12",
+    "fflate": "0.8.3",
+    "firebase-admin": "14.5.0",
+    "@hono/node-server": "^2.1.6",
+    "hono": "^4.12.0",
+    "jose": "^6.1.0",
+    "zod": "^4.1.0",
+    "@maestivo/contracts": "*",
+    "@maestivo/score-core": "*"
+  }
+}

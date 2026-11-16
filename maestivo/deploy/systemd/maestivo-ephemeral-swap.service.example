@@ -1,0 +1,33 @@
+# Uninstalled research candidate. System-wide swap affects all processes;
+# do not enable until real resource, cleanup, ownership and restart behavior
+# has been reviewed on the exact host. This does not install/start OCR.
+[Unit]
+Description=MAESTIVO temporary encrypted swap candidate
+After=local-fs.target
+RequiresMountsFor=/var/lib/maestivo-ephemeral-swap
+Before=maestivo-omr.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=root
+Group=root
+UMask=0077
+Environment=PATH=/usr/sbin:/usr/bin:/sbin:/bin
+StateDirectory=maestivo-ephemeral-swap
+StateDirectoryMode=0700
+RuntimeDirectory=maestivo-ephemeral-swap
+RuntimeDirectoryMode=0700
+RuntimeDirectoryPreserve=yes
+ExecStart=/bin/bash /srv/maestivo/current/maestivo-ephemeral-swap.sh start
+ExecStop=/bin/bash /srv/maestivo/current/maestivo-ephemeral-swap.sh stop
+TimeoutStartSec=120s
+TimeoutStopSec=120s
+Restart=no
+NoNewPrivileges=yes
+ProtectHome=yes
+ProtectSystem=strict
+ReadWritePaths=/run/maestivo-ephemeral-swap /var/lib/maestivo-ephemeral-swap
+
+[Install]
+WantedBy=multi-user.target

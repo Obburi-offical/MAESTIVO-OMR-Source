@@ -1,0 +1,40 @@
+# UNINSTALLED CANDIDATE. Fill the worker private address only after the host
+# key, access controls, identities, memory limits and runtime are verified.
+# The API's service user must separately join maestivo-omr-bridge (read/connect
+# only), and its allowed socket must be /run/maestivo-omr-bridge/worker.sock.
+[Unit]
+Description=MAESTIVO private SSH OMR bridge candidate
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=maestivo-bridge
+Group=maestivo-omr-bridge
+RuntimeDirectory=maestivo-omr-bridge
+RuntimeDirectoryMode=0750
+UMask=0117
+LoadCredential=ssh-key:/etc/maestivo/omr-bridge-key
+LoadCredential=known-hosts:/etc/maestivo/omr-worker-known-hosts
+Environment=MAESTIVO_BRIDGE_HOST=REPLACE_WITH_WORKER_PRIVATE_IP
+Environment=MAESTIVO_BRIDGE_USER=maestivo-omr-ingress
+Environment=MAESTIVO_BRIDGE_PORT=22
+Environment=MAESTIVO_BRIDGE_KEY=%d/ssh-key
+Environment=MAESTIVO_BRIDGE_KNOWN_HOSTS=%d/known-hosts
+Environment=MAESTIVO_BRIDGE_SOCKET=/run/maestivo-omr-bridge/worker.sock
+ExecStart=/usr/bin/node /srv/maestivo/current/omr-ssh-bridge.mjs
+Restart=on-failure
+RestartSec=5
+KillMode=control-group
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectHome=yes
+ProtectSystem=strict
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+LimitCORE=0
+MemoryMax=128M
+TasksMax=32
+
+[Install]
+WantedBy=multi-user.target

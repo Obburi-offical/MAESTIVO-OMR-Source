@@ -1,0 +1,56 @@
+# UNINSTALLED candidate. Use the exact reviewed immutable bundle and runtime.
+# The default license flag prevents startup until rights review is complete.
+[Unit]
+Description=MAESTIVO isolated split-host OMR worker
+BindsTo=maestivo-split-omr-guard.service maestivo-ephemeral-swap.service maestivo-split-scratch.service
+After=network-online.target maestivo-split-omr-guard.service maestivo-ephemeral-swap.service maestivo-split-scratch.service
+RequiresMountsFor=/var/lib/maestivo-omr-scratch
+AssertPathIsMountPoint=/var/lib/maestivo-omr-scratch
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=maestivo-omr
+Group=maestivo-omr
+RuntimeDirectory=maestivo-omr
+RuntimeDirectoryMode=0750
+UMask=0077
+WorkingDirectory=/run/maestivo-omr
+ExecStartPre=/opt/maestivo-runtime/bin/node /srv/maestivo/releases/REVIEWED/check-omr-scratch.mjs /var/lib/maestivo-omr-scratch
+ExecStartPre=/opt/maestivo-runtime/bin/node /srv/maestivo/releases/REVIEWED/check-split-runtime.mjs
+UnsetEnvironment=JAVA_TOOL_OPTIONS JDK_JAVA_OPTIONS _JAVA_OPTIONS NODE_OPTIONS LD_PRELOAD LD_LIBRARY_PATH
+Environment=HOME=/var/lib/maestivo-omr-scratch/jobs
+Environment=TMPDIR=/var/lib/maestivo-omr-scratch/jobs
+Environment=TESSDATA_PREFIX=/srv/maestivo/tessdata
+Environment=MAESTIVO_AUDIVERIS_SOCKET=/run/maestivo-omr/worker.sock
+Environment=MAESTIVO_OMR_JOB_ROOT=/var/lib/maestivo-omr-scratch/jobs
+Environment=MAESTIVO_AUDIVERIS_BINARY=/srv/maestivo/audiveris/bin/Audiveris
+Environment=MAESTIVO_AUDIVERIS_TIMEOUT_MS=360000
+Environment=NODE_ENV=production
+Environment=MAESTIVO_OMR_NATIVE_PROFILE=sealed-v1
+Environment=MAESTIVO_AUDIVERIS_AGPL_APPROVED=false
+ExecStart=/opt/maestivo-runtime/bin/node /srv/maestivo/releases/REVIEWED/omr-worker.cjs
+Restart=no
+KillMode=control-group
+TimeoutStopSec=20
+NoNewPrivileges=yes
+PrivateNetwork=yes
+PrivateTmp=yes
+ProtectHome=yes
+ProtectSystem=strict
+ReadWritePaths=/var/lib/maestivo-omr-scratch/jobs
+ProtectControlGroups=yes
+ProtectKernelTunables=yes
+RestrictAddressFamilies=AF_UNIX
+CapabilityBoundingSet=
+LimitCORE=0
+LimitFSIZE=128M
+MemoryHigh=320M
+MemoryMax=520M
+MemorySwapMax=384M
+CPUQuota=50%
+TasksMax=128
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,365 @@
+{
+  "scope": "Recorded source-artifact leads; not a complete corresponding-source offer or a verified reproduction.",
+  "recorded_app_jars": 56,
+  "binary_source_correspondence_verified": false,
+  "native_build_inputs_verified": false,
+  "artifacts": [
+    {
+      "coordinate": "args4j:args4j:2.33",
+      "url": "https://repo.maven.apache.org/maven2/args4j/args4j/2.33/args4j-2.33-sources.jar",
+      "sha256": "a337a37bc6fc9a2d81c952f4c6ebd5db12351e994d00e112d7fe87a4dd707204",
+      "source_file_entries": 63,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "ch.qos.logback:logback-classic:1.4.14",
+      "url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14-sources.jar",
+      "sha256": "b3e670ccb6a8f2cfc6445f54c6fbfbc62bdd3912d147498d81e425d578dfb468",
+      "source_file_entries": 172,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "ch.qos.logback:logback-core:1.4.14",
+      "url": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14-sources.jar",
+      "sha256": "760175e067af94b6d43b5d1558e154d60766de320618f78ff8cb8f956a7da92f",
+      "source_file_entries": 408,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.core:jackson-annotations:2.20",
+      "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20-sources.jar",
+      "sha256": "6bdceeb142be2dc19f8ada2e7be1f028e47d94716d4b9ea8bd2c14b3cec0bca8",
+      "source_file_entries": 46,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.core:jackson-core:2.20.0",
+      "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.0/jackson-core-2.20.0-sources.jar",
+      "sha256": "675bf321a4d8fbae2257ff61986ea5064c95599a446c4eea81c215ffb8251b21",
+      "source_file_entries": 136,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.20.0",
+      "url": "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.0/jackson-databind-2.20.0-sources.jar",
+      "sha256": "e192ebfb2a0d705121cfff7419c4d28b9cf589bf52ca8e5cbe83de990c54f10b",
+      "source_file_entries": 482,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.github.jai-imageio:jai-imageio-core:1.4.0",
+      "url": "https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0-sources.jar",
+      "sha256": "9983a2c2dac7eb7d8180f91d90a720cd66a83e7e502f5382e685c77f19cca276",
+      "source_file_entries": 145,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.github.jai-imageio:jai-imageio-jpeg2000:1.4.0",
+      "url": "https://repo.maven.apache.org/maven2/com/github/jai-imageio/jai-imageio-jpeg2000/1.4.0/jai-imageio-jpeg2000-1.4.0-sources.jar",
+      "sha256": "29df541f88286c81294241cca7f329c85cf810f09f20f717e3a84273f9f0854d",
+      "source_file_entries": 181,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.google.code.findbugs:jsr305:3.0.2",
+      "url": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+      "sha256": "1c9e85e272d0708c6a591dc74828c71603053b48cc75ae83cce56912a2aa063b",
+      "source_file_entries": 31,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.itextpdf:itextpdf:5.5.13.2",
+      "url": "https://repo.maven.apache.org/maven2/com/itextpdf/itextpdf/5.5.13.2/itextpdf-5.5.13.2-sources.jar",
+      "sha256": "c6a3c98ae6629a551b45249c6b1092b36435519e21a83fd5f0cc2bbf057be7b0",
+      "source_file_entries": 629,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.jgoodies:jgoodies-common:1.8.1",
+      "url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-common/1.8.1/jgoodies-common-1.8.1-sources.jar",
+      "sha256": "dabc447d59a3a0193393ef4ca3855740e2e95cf719cbf36d9b5dd5e51393492f",
+      "source_file_entries": 36,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.jgoodies:jgoodies-forms:1.9.0",
+      "url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-forms/1.9.0/jgoodies-forms-1.9.0-sources.jar",
+      "sha256": "c3c68c47000becf8fb6ca498fda90b808c6a3edc6405dd332d771042c0f358d4",
+      "source_file_entries": 43,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.jgoodies:jgoodies-looks:2.7.0",
+      "url": "https://repo.maven.apache.org/maven2/com/jgoodies/jgoodies-looks/2.7.0/jgoodies-looks-2.7.0-sources.jar",
+      "sha256": "9379737818c1d655b503d0a363f3cd30174517539075b861df959bd081ec7141",
+      "source_file_entries": 127,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.sun.istack:istack-commons-runtime:4.1.2",
+      "url": "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2-sources.jar",
+      "sha256": "395597030176cf4186495a26c024bbba2f74c1f4b0f1c655063be605862846fd",
+      "source_file_entries": 21,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.sun.xml.bind:jaxb-core:2.3.0.1",
+      "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1-sources.jar",
+      "sha256": "d628f0d4d24e5a89842a81533da9f5eb4dd7c9bd5e2321c3ded3785e3f28a65f",
+      "source_file_entries": 143,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "com.sun.xml.bind:jaxb-impl:2.3.1",
+      "url": "https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.3.1/jaxb-impl-2.3.1-sources.jar",
+      "sha256": "9e455e0f665c5fd279a6547e3b8c940637cfdda4a98164f991c94e29d32ced87",
+      "source_file_entries": 433,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "commons-io:commons-io:2.16.1",
+      "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1-sources.jar",
+      "sha256": "fcfe84e39fb44e38a0ea0ab0815b53adea6fff89c7b72535bc42495f400cb9a1",
+      "source_file_entries": 253,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "commons-logging:commons-logging:1.3.5",
+      "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5-sources.jar",
+      "sha256": "496332597187dd32e41cfd1d87e5991a3d77b51bae2cc0bbe9e51496ae54ce5c",
+      "source_file_entries": 18,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "gov.nist.math:jama:1.0.3",
+      "url": "https://repo.maven.apache.org/maven2/gov/nist/math/jama/1.0.3/jama-1.0.3-sources.jar",
+      "sha256": "5691d17d91efb78697cf7470f10b319cafa6be2fbbc1fa98b978e11ce9fd9356",
+      "source_file_entries": 9,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "jakarta.activation:jakarta.activation-api:2.1.3",
+      "url": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3-sources.jar",
+      "sha256": "954abd2c15376fe6a78cf1cad259988e51d689e74ea0eeb5c01894786bc92662",
+      "source_file_entries": 29,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+      "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2-sources.jar",
+      "sha256": "184305ed5a6591daca02bfd326fc3cd76262f67348147dcaf1b4bd61135a981a",
+      "source_file_entries": 97,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "javax.activation:javax.activation-api:1.2.0",
+      "url": "https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar",
+      "sha256": "d7411fb29089cafa4b77493f10bfb52832cd1976948903d0b039e12b0bd70334",
+      "source_file_entries": 18,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "javax.xml.bind:jaxb-api:2.3.1",
+      "url": "https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar",
+      "sha256": "d69dc2c28833df5fb6e916efae01477ae936326b342d479a43539b0131c96b9d",
+      "source_file_entries": 99,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "net.imagej:ij:1.54p",
+      "url": "https://repo.maven.apache.org/maven2/net/imagej/ij/1.54p/ij-1.54p-sources.jar",
+      "sha256": "eb3c268a8f909b18d770918c6c8bc1c867468c2bfd87544edb78dc0b14cbe890",
+      "source_file_entries": 352,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "net.java.dev.jna:jna:5.14.0",
+      "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0-sources.jar",
+      "sha256": "ebd774c761215676cda059fd68240628ef99f4aafa6d355ae00d184855aef134",
+      "source_file_entries": 65,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "net.jcip:jcip-annotations:1.0",
+      "url": "https://repo.maven.apache.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0-sources.jar",
+      "sha256": "e3ad6ae439e3cf8a25372de838efaa1a95f8ef9b5053d5d94fafe89c8c09814e",
+      "source_file_entries": 4,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.apache.commons:commons-lang3:3.18.0",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0-sources.jar",
+      "sha256": "b15732a13e40df7f07c30f2cb8572874798e8dde581f1398943d2ad3765bafaa",
+      "source_file_entries": 254,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.apache.directory.studio:org.apache.commons.io:2.4",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/directory/studio/org.apache.commons.io/2.4/org.apache.commons.io-2.4-sources.jar",
+      "sha256": null,
+      "source_file_entries": 0,
+      "status": "unavailable"
+    },
+    {
+      "coordinate": "org.apache.pdfbox:fontbox:3.0.6",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/fontbox/3.0.6/fontbox-3.0.6-sources.jar",
+      "sha256": "3bd100f09da55efe8fd51d34613380150bbc4b00f059d6bc798dc76b8bfa329c",
+      "source_file_entries": 142,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.apache.pdfbox:jbig2-imageio:3.0.4",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4-sources.jar",
+      "sha256": "6c03b3a9fc7ffbc6cc9b2fe8558d8460bf3539ff58c8893b37fb39a1d9ced5f9",
+      "source_file_entries": 61,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.apache.pdfbox:pdfbox-io:3.0.6",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox-io/3.0.6/pdfbox-io-3.0.6-sources.jar",
+      "sha256": "9b559fd556a5d059eeec00a16009bebb5efcff696c95e79218f79e9e86a076a8",
+      "source_file_entries": 18,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.apache.pdfbox:pdfbox:3.0.6",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/pdfbox/pdfbox/3.0.6/pdfbox-3.0.6-sources.jar",
+      "sha256": "3c4c7cab560b06f930dcf0d1789b750b7d41953ffc74316914ad310d9b636953",
+      "source_file_entries": 621,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.apfloat:apfloat:1.10.1",
+      "url": "https://repo.maven.apache.org/maven2/org/apfloat/apfloat/1.10.1/apfloat-1.10.1-sources.jar",
+      "sha256": "ca3d005a6a57e3926a74e853988e61b32d887a2fa4314bc8e9173835e10dfd00",
+      "source_file_entries": 208,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.audiveris:proxymusic:4.0.3",
+      "url": "https://repo.maven.apache.org/maven2/org/audiveris/proxymusic/4.0.3/proxymusic-4.0.3-sources.jar",
+      "sha256": "4c0a5cd523d6a76d579dcceb00c1feb02b7723cc76c50365849f6de25435b88b",
+      "source_file_entries": 335,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.bushe:eventbus:1.4",
+      "url": "https://repo.maven.apache.org/maven2/org/bushe/eventbus/1.4/eventbus-1.4-sources.jar",
+      "sha256": "fbe4e36d8c444f52f50bc2acb91cbe3dad04262b0efc88572eb672dad2680bce",
+      "source_file_entries": 47,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.bytedeco:javacpp:1.5.13",
+      "url": "https://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.5.13/javacpp-1.5.13-sources.jar",
+      "sha256": "c61162d99c0dde4d3af170123cb3e786abed6667cb3864db9d6408706f6d576c",
+      "source_file_entries": 184,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.bytedeco:leptonica:1.87.0-1.5.13",
+      "url": "https://repo.maven.apache.org/maven2/org/bytedeco/leptonica/1.87.0-1.5.13/leptonica-1.87.0-1.5.13-sources.jar",
+      "sha256": "160816898acdaceab568db161875d22c4e3cd1ced93653e95d0d95dfe1f4eedc",
+      "source_file_entries": 73,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.bytedeco:tesseract:5.5.2-1.5.13",
+      "url": "https://repo.maven.apache.org/maven2/org/bytedeco/tesseract/5.5.2-1.5.13/tesseract-5.5.2-1.5.13-sources.jar",
+      "sha256": "8f01d717504e709b6cd702edfcd0a77921a30f19f34f20d76082cf5fd3bb9941",
+      "source_file_entries": 51,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.commonmark:commonmark:0.27.0",
+      "url": "https://repo.maven.apache.org/maven2/org/commonmark/commonmark/0.27.0/commonmark-0.27.0-sources.jar",
+      "sha256": "1cb0e8777184a5ee2eafb278125442ff64e0a0738efd6069c59e49139b35ea30",
+      "source_file_entries": 138,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.eclipse.angus:angus-activation:2.0.2",
+      "url": "https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2-sources.jar",
+      "sha256": "f8f6d9d9f546f610b566d8122ea9bdf6eb8f0af7357bfd2182bd582e04336e41",
+      "source_file_entries": 9,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.glassfish.jaxb:jaxb-core:4.0.5",
+      "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5-sources.jar",
+      "sha256": "0f98aa7d23bb68ca2b1f2ab52ea33c8dee861f04ce8f7e6769de4b7b155e3703",
+      "source_file_entries": 82,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+      "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5-sources.jar",
+      "sha256": "35321a7ebed062e226b4cf27edb8bc0f77c6e70c1c548b693c973b14a360f1da",
+      "source_file_entries": 371,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.glassfish.jaxb:txw2:4.0.5",
+      "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5-sources.jar",
+      "sha256": "4d540d93406288d5d54d3b889b12b013514fcf0e3c9ce365d3dae07aceb32036",
+      "source_file_entries": 47,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.javassist:javassist:3.28.0-GA",
+      "url": "https://repo.maven.apache.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA-sources.jar",
+      "sha256": "0b6cf0d138dc208263a2a0a39b1daae217707d58d79d7a4973a68ce62f8c2d1f",
+      "source_file_entries": 221,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.jdesktop.bsaf:bsaf:1.9.2",
+      "url": "https://repo.maven.apache.org/maven2/org/jdesktop/bsaf/bsaf/1.9.2/bsaf-1.9.2-sources.jar",
+      "sha256": "e308b6b1e608b6560412754530fc619e28216c3b14b58fecc91bef0df01ce589",
+      "source_file_entries": 38,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.jfree:jfreechart:1.5.6",
+      "url": "https://repo.maven.apache.org/maven2/org/jfree/jfreechart/1.5.6/jfreechart-1.5.6-sources.jar",
+      "sha256": "47f49e231c2e953a0117792bb1b7b17437cf93b711a617b4bfc775973ea48f6c",
+      "source_file_entries": 658,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.jgrapht:jgrapht-core:1.5.2",
+      "url": "https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.5.2/jgrapht-core-1.5.2-sources.jar",
+      "sha256": "79bd7624222ddd4742686f4f0e2490ecd94d556e57bced5eceb75f20f2de54a0",
+      "source_file_entries": 451,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.jheaps:jheaps:0.14",
+      "url": "https://repo.maven.apache.org/maven2/org/jheaps/jheaps/0.14/jheaps-0.14-sources.jar",
+      "sha256": "20c8701d87d9ab4a3600537f6622537c1c08baa558ef4f9a49aa529379d74c74",
+      "source_file_entries": 60,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.kohsuke:github-api:1.330",
+      "url": "https://repo.maven.apache.org/maven2/org/kohsuke/github-api/1.330/github-api-1.330-sources.jar",
+      "sha256": "39b0afe01cdc7ec791d3bb9989dccec6b4aad0299f6782203e6078e1c397cfd5",
+      "source_file_entries": 259,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.reflections:reflections:0.10.2",
+      "url": "https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2-sources.jar",
+      "sha256": "7c8f0b91e298556ac8eebcbbb33de537baa146d80a7e5a6500e44cd8f76a91f4",
+      "source_file_entries": 41,
+      "status": "downloaded_unverified"
+    },
+    {
+      "coordinate": "org.slf4j:slf4j-api:2.0.17",
+      "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17-sources.jar",
+      "sha256": "db0d08d8efa05ad19d174d747bd9d8e68dbb02b596812fe7b3a681656e346694",
+      "source_file_entries": 47,
+      "status": "downloaded_unverified"
+    }
+  ]
+}
