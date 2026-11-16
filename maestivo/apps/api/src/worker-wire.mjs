@@ -24,10 +24,14 @@ function responseFrame(code, body = Buffer.alloc(0)) {
 
 // The caller must arrange an existing, trusted socket directory. Never unlink a
 // pre-existing path: a second server must fail rather than replacing a socket.
-export async function createWorkerServer({ socketPath, handlePdf, deadlineMs = 120000 }) {
-  if (typeof socketPath !== 'string' || !isAbsolute(socketPath) || resolve(socketPath) !== socketPath || socketPath.includes('\0') || typeof handlePdf !== 'function' || !Number.isInteger(deadlineMs) || deadlineMs < 1) throw new Error('INVALID_CONFIGURATION');
-  let busy = false;
+export async function createWorkerServer({ socketPath, handlePdf, deadlineMs = 120000, shutdownTimeoutMs = 12000 }) {
+  if (typeof socketPath !== 'string' || !isAbsolute(socketPath) || resolve(socketPath) !== socketPath || socketPath.includes('\0') || typeof handlePdf !== 'function' || !Number.isInteger(deadlineMs) || deadlineMs < 1 || !Number.isInteger(shutdownTimeoutMs) || shutdownTimeoutMs < 1 || shutdownTimeoutMs > 15000) throw new Error('INVALID_CONFIGURATION');
+  let busy = false, closing = false, shutdown;
+  const sockets = new Set(), handlers = new Set();
   const server = createServer({ allowHalfOpen: true }, socket => {
+    sockets.add(socket);
+    socket.once('close', () => sockets.delete(socket));
+    if (closing) { socket.destroy(); return; }
     if (busy) { socket.on('error', () => {}); socket.end(responseFrame(2), () => socket.destroy()); return; }
     busy = true;
     // Admission is acknowledged before the client sends PDF bytes. This lets
@@ -76,7 +80,11 @@ export async function createWorkerServer({ socketPath, handlePdf, deadlineMs = 1
         const n = chunk.length - offset;
         if (n > pdf.length - pdfUsed) return close();
         chunk.copy(pdf, pdfUsed, offset); pdfUsed += n;
-        if (pdfUsed === pdf.length) void processRequest();
+        if (pdfUsed === pdf.length) {
+          const handler = processRequest();
+          handlers.add(handler);
+          void handler.finally(() => handlers.delete(handler));
+        }
       }
     });
     // Keep the sender's write side open until it has received a result, so a
@@ -88,7 +96,20 @@ export async function createWorkerServer({ socketPath, handlePdf, deadlineMs = 1
     server.listen(socketPath, () => { server.removeListener('error', reject); resolve(); });
   });
   // Do not expose listen() to callers: this boundary must remain a Unix socket.
-  return { close: () => new Promise((resolve, reject) => server.close(error => error ? reject(error) : resolve())) };
+  return { close: () => {
+    if (shutdown) return shutdown;
+    closing = true;
+    const serverClosed = new Promise((resolve, reject) => server.close(error => error ? reject(error) : resolve()));
+    // Stop admitting work and abort idle and active clients. Socket closure
+    // aborts the handler; wait for its cleanup before the service may exit.
+    for (const socket of sockets) socket.destroy();
+    const drained = Promise.all([serverClosed, ...handlers]);
+    shutdown = new Promise((resolve, reject) => {
+      const timer = setTimeout(() => reject(new Error('WORKER_SHUTDOWN_TIMEOUT')), shutdownTimeoutMs);
+      drained.then(() => { clearTimeout(timer); resolve(); }, error => { clearTimeout(timer); reject(error); });
+    });
+    return shutdown;
+  } };
 }
 
 // The adapter must independently validate and sanitize any OMR output.

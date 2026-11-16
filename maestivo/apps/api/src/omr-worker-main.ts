@@ -16,6 +16,13 @@ async function main() {
     sealedNative: true,
   });
   console.info('MAESTIVO isolated OMR worker is listening on its private Unix socket.');
-  for (const signal of ['SIGTERM', 'SIGINT'] as const) process.once(signal, () => { void service.close().then(() => process.exit(0)); });
+  for (const signal of ['SIGTERM', 'SIGINT'] as const) process.once(signal, () => {
+    void service.close().then(() => process.exit(0), () => {
+      // A stuck cleanup is a failure, never a successful shutdown. systemd
+      // retains its own control-group stop deadline for any remaining child.
+      console.error('MAESTIVO OMR worker did not finish shutdown cleanup.');
+      process.exitCode = 1;
+    });
+  });
 }
 void main().catch(() => { console.error('MAESTIVO isolated OMR worker failed to start.'); process.exit(1); });

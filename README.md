@@ -31,12 +31,19 @@ MAESTIVO code or other third-party software.
   37 links are recorded separately in [file hashes](records/no-itext-runtime-SHA256SUMS)
   and [link targets](records/no-itext-runtime-SYMLINKS). This inventory is an
   observation, not an exhaustive proof of source correspondence.
-- The tested worker bundle has SHA-256
+- The previously installed, privately tested worker bundle has SHA-256
   `84aab514d368812998f4e3ea0a8c33a9a161f03f42fbd2721b3e6c30e723834f`.
-  The worker's ten MAESTIVO input files in this repository were checked
-  against Git revision `3dd5d0b62ad587e5e9e9269bbc55e13571b6c2ef`.
-  `installed-variants/4ff753cc/` contains the earlier preflight actually
-  installed; the stronger version under `maestivo/` is distinct.
+  Its MAESTIVO worker sources are available in the initial commit of this
+  repository and were checked against revision
+  `3dd5d0b62ad587e5e9e9269bbc55e13571b6c2ef`. The current source includes a
+  subsequent shutdown fix, checked against revision
+  `ab645ee713736758eb0e3b8dcac2a251f048c6bf`. That candidate's checkout
+  worker bundle has SHA-256
+  `1e43cc2358bce8f0a1c02ee3a87b717b2b89845269eb6e925985463b8c850402`;
+  production installation is a separate operation and must not be inferred
+  from the publication of this source. `installed-variants/4ff753cc/`
+  contains the earlier preflight actually installed; the stronger version
+  under `maestivo/` is distinct.
 - The historical JAR and [Maven source-candidate index](third-party-records/maven-source-leads.json)
   describe the original 56-JAR no-JAI candidate, including the subsequently
   omitted iText JAR. The no-iText worker requires the other 55 JARs, pinned in
@@ -64,12 +71,13 @@ shasum -a 256 ../dist/omr-worker.cjs
 ```
 
 An independent `npm ci` build from this repository produced SHA-256
-`f3d7e7c636b6bcf7e80ce528695c474dcd02134122c8f0b9e0b2712ad12c689b`.
-The installed worker above embeds 112 machine-specific dependency path prefixes
+`2bba9d0bbf6d5eeefd8a7e047569e26adea30a9807cb4809f6cdfec41252d5a7`.
+The current candidate worker above embeds 112 machine-specific dependency path prefixes
 in esbuild-generated comments and module names. Replacing those prefixes with
 `node_modules/` made its bytes exactly match the independent public build.
 The original paths are not needed for execution and are not published here.
-A matching hash is extra verification, not a universal license requirement. The original
+A matching hash is extra verification, not a universal license requirement. The included `worker-wire.test.mjs` was also run with Node 22 and passed 14
+tests. The original
 `bundle-candidate.mjs` builds other API entry points as well; this subset does
 not contain the complete private API or all of that script's workspace inputs.
 The standalone command builds only the worker.
